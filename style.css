@@ -6,6 +6,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 5px;    /* Reduces space above */
-    margin-bottom: 5px;  /* Reduces space below */
+    margin: 4px 0;      /* 10px top/bottom, 0px left/right */
+}
+
+p {
+  margin: 5px 0;
 }

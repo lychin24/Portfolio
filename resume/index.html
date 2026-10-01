@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="../style.css">
+
 </head>
 <body>
     <h1>Resume</h1>
@@ -22,6 +24,7 @@
                 University of California, San Diego
             </h4>
             <p>
+                Expected June 2028<br>
                 Bachelors in Science in Data Science, Math and Biology Double Minor<br>
                 GPA: 3.66
             </p>
@@ -43,9 +46,26 @@
         <h3>Experience</h3>
         <section>
             <h4>
+                Halıcıoğlu Data Science Institute
+            </h4>
+            <p>Tutor | <time datetime="2026-09">Sept 2026</time> - Present
+                <ul>
+                    <li>
+                        Hold 2 office hours per week, providing 1-on-1 and small-group tutoring to undergraduates on Python fundamentals,
+object-oriented programming, and data structures
+                    </li>
+                    <li>
+                        Evaluate and grade student assignments, providing individualized feedback to reinforce course concepts 
+                    </li>
+                </ul>                
+            </p>
+        <section>
+
+        <section>
+            <h4>
                 IDXExchange
             </h4>
-            <p>Data Science Intern | <time>June 2026-Sept-2026</time><br>
+            <p>Data Science Intern | <time datetime="2026-06">June 2026</time> - <time datetime="2026-09">Sept 2026</time>
                 <ul>
                     <li>
                         Built an end-to-end ML pipeline predicting California residential property closing prices from 13 months of CRMLS
@@ -59,12 +79,65 @@ selecting a final XGBoost model that achieved a 0.91 R² and 10.3% MAPE on out-o
                         Delivered a <a href="github.com/lychin24/IDX-Data-Science">complete repo</a> with a reproducible pipeline and worked with team to present findings and model results to
 company CEO and fellow interns
                     </li>
-                </ul>
-
-            <p>
-                
+                </ul>                
             </p>
         <section>
+
+        <section>
+            <h4>
+                Aurion Biotech
+            </h4>
+            <p>Manufacturing Intern | <time datetime="2026-06">June 2026</time> - <time datetime="2026-09">Sept 2026</time>
+                <ul>
+                    <li>
+                        Collected media lot numbers, manufacturers, and lot age across 100+ cell culture manufacturing batch records to support
+a reagent study for a Phase 3 cell therapy drug product
+                    </li>
+                    <li>
+                        Documented mixing parameters and timing across 150+ process steps, supporting and participating in a manager-led risk
+assessment to identify homogeneity risks throughout the manufacturing process
+                    
+                </ul>                
+            </p>
+        <section>
+    </article>
+
+    <article id="projects">
+        <h3>Projects</h3>
+        <section>
+            <h4>Recipe Rating Predictor</h4>
+            <p>
+                <time datetime="2026-06">June 2026</time> | <a href="https://lychin24.github.io/Predicting-Recipe-Ratings/ ">GitHub Repo</a>
+                <ul>
+                    <li>Analyzed 83K+ recipes and 730K+ user ratings from Food.com to investigate whether cooking time predicts recipe
+ratings, using permutation and hypothesis testing to visualize and establish statistical significance (p < 0.01)</li>
+                    <li>
+                        Built a Decision Tree classifier to predict whether a recipe would be rated above 4.5 stars, improving F1-score from
+0.85 (baseline) to 0.94 through feature engineering and hyperparameter tuning
+                    </li>
+                </ul>
+
+            </p>
+        </section>
+
+        <section>
+            <h4>Technical Internship Predictor</h4>
+            <p>
+                <time datetime="2026-03">March 2026</time> | <a href="https://github.com/lychin24/Predicting-Internship-Outcomes">GitHub Repo</a>
+                <ul>
+                    <li>Investigated which academic and experiential factors (GPA, research experience, networking, technical skills) predict
+internship attainment, comparing linear regression, decision tree, and random forest models on a 5-person team
+                    </li>
+                    <li>
+                        Performed data cleaning, probabilistic imputation, and exploratory analysis on an undergraduate employability
+dataset, then evaluated models via cross-validated accuracy, RMSE, and R²
+, determining there was no single strong
+predicting factor
+                    </li>
+                </ul>
+
+            </p>
+        </section>
     </article>
 
 </body>
